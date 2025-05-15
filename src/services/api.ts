@@ -15,7 +15,7 @@ import {
 
 } from '../types';
 
-const API_BASE_URL = 'http://localhost:5270/api';
+const API_BASE_URL = 'https://backend-2dud.onrender.com/api';
 
 // Generic fetch function with error handling
 async function fetchFromAPI<T>(
