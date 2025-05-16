@@ -176,7 +176,7 @@ export const inventoryApi = {
 // Login e Registro
 export const authApi = {
   login: (email: string, senha: string) =>
-    fetch('http://localhost:5270/api/Auth/login', {
+    fetch('https://backend-2dud.onrender.com/api/Auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -189,7 +189,7 @@ export const authApi = {
     }),
 
   register: (email: string, senha: string, role: string) =>
-    fetch('http://localhost:5270/api/Auth/register', {
+    fetch('https://backend-2dud.onrender.com/api/Auth/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
